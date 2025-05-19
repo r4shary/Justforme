@@ -5,10 +5,10 @@ import { connect } from "cloudflare:sockets";
 // Variables
 const rootDomain = "eeembe.biz.id"; // Ganti dengan domain utama kalian
 const serviceName = "nautica"; // Ganti dengan nama workers kalian
-const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = ""; // Ganti dengan email yang kalian gunakan
-const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const apiKey = "3Su2R8eZTy1kN15scHOkn1mmJxc9Ugj7WtPvmEHE"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = "roup.ashary@gmail.com"; // Ganti dengan email yang kalian gunakan
+const accountID = "2b2e69ec3a7b9e48357e14ed31d92c1f"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "8ef1563a1762edd1f653da47ff007177"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "";
 let cachedProxyList = [];
@@ -1003,8 +1003,8 @@ class CloudflareApi {
 
     this.headers = {
       Authorization: this.bearer,
-      "X-Auth-Email": this.apiEmail,
-      "X-Auth-Key": this.apiKey,
+      // "X-Auth-Email": this.apiEmail,
+      // "X-Auth-Key": this.apiKey,
     };
   }
 
